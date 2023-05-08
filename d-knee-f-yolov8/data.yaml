@@ -1,0 +1,13 @@
+train: /home/keva/Downloads/project-yolov8-format/train
+val: /home/keva/Downloads/project-yolov8-format/valid
+test: /home/keva/Downloads/project-yolov8-format/test
+
+nc: 1
+names: ['Knee']
+
+roboflow:
+  workspace: project
+  project: project-need
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/project-need/dataset/1
